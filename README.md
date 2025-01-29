@@ -16,7 +16,7 @@ Install `e3nn`: `pip install e3nn`.
 ## Datasets Preparation
 To train, generate and evaluate conformers, first download the dataset directory from [this shared Drive](https://drive.google.com/drive/folders/1BBRpaAvvS2hTrH81mAE4WvyLIKMyhwN7?usp=sharing).
 ### Data Preprocessing with /data_tools
-We provide improved preprocessing scripts to address memory and version dependency issues:
+**We provide improved preprocessing scripts to address memory and version dependency issues in the original implementations of TorDiff and GeoDiff**:
 
 1. **Fragment-Augmented Diffusion Processing**:
    ```sh
